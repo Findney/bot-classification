@@ -1,0 +1,32 @@
+{
+    "model_name": "rf",
+    "best_params": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": 3,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 10,
+        "min_weight_fraction_leaf": 0.0,
+        "n_estimators": 200,
+        "n_jobs": null,
+        "oob_score": false,
+        "random_state": null,
+        "verbose": 0,
+        "warm_start": false
+    },
+    "test_results": {
+        "F1 Score": 1.0,
+        "Accuracy": 1.0,
+        "Precision": 1.0,
+        "Recall": 1.0,
+        "AUC-ROC": 1.0,
+        "AUC-PR": 1.0,
+        "MCC": 1.0
+    }
+}
